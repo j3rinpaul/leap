@@ -4,7 +4,7 @@ import cv2
 # Load the cascade
 face_cascade = cv2.CascadeClassifier('./cascade.xml')
 # Read the input image
-img = cv2.imread('./p/pos4.jpg')
+img = cv2.imread('./p/pos1.jpg')
 
 
 # Convert into grayscale
