@@ -4,7 +4,7 @@ import cv2
 # Load the cascade
 face_cascade = cv2.CascadeClassifier('./cascade.xml')
 # Read the input image
-img = cv2.imread('./p/pos1.jpg')
+img = cv2.imread('./p/pos4.jpg')
 
 
 # Convert into grayscale
@@ -14,6 +14,7 @@ faces = face_cascade.detectMultiScale(gray, 1.1, 4)
 # Draw rectangle around the faces
 for (x, y, w, h) in faces:
     cv2.rectangle(img, (x, y), (x+w, y+h), (255, 0, 0), 1)
+    print("Hello")
     
 
 cv2.imshow('img',img)
