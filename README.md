@@ -1,3 +1,4 @@
+<img src = ./leap.jpg />
 # Automatic Headlight Dimmer 
 <h2> Learn Engineering through Activity Program (LEAP)</h2>
 <h3> Team - 1 </h3> 
